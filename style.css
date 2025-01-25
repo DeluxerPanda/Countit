@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #2e3440;
+}
+
+html{
+    color: #88c0d0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#numer_Plus{
+border-radius: 35px;
+padding-inline: 10px;
+margin: 10px;
+width: 128px;
+border: none;
+font-weight: bold;
+}
+
+#numer_Text{
+    font-size: 6rem;
+    overflow:auto;
+}
+
+#numer_Minus{
+    border-radius: 35px;
+    padding-inline: 10px;
+    margin: 10px;
+    width: 128px;
+    border: none;
+    font-weight: bold;
+}
+
+#numer_Reset{
+    font-size: 45px;
+    border-radius: 35px;
+    padding-inline: 10px;
+    background-color: #bf616a;
+    border: none;
+    font-weight: bold;
+}
